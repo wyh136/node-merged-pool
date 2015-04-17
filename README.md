@@ -7,10 +7,10 @@ pools, each with their own daemon and stratum ports :)
 I am trying to make this useable software. On my list of up-front todos:
 
 * Multiple PoWAUX coins on each main chain - Issues
-* Profit Switching - Issues (UNOMP)
+* Profit Switching - Complete (UNOMP)
 * Built-in stratum redundancy 
 
-Frontend and payment enhancements will be a separate repo. [UNOMP](//github.com/sigwo/unified-node-open-mining-portal)
+Frontend and payment enhancements will be a separate repo. [UNOMP](//github.com/UNOMP/unified-node-open-mining-portal)
 
 #### Why
 The software that I forked was a wonderful beginning that never came to fruition. I hope to bring Node stratum into the
@@ -164,20 +164,6 @@ var myCoin = {
 };
 
 var myAuxCoins = [{
-    "name": "LottoShares",
-    "symbol": "LTS",
-    "algorithm": "scrypt",
-
-    /*  */
-    "daemons": [
-        {   //Main daemon instance
-            "host": "127.0.0.1",
-            "port": 23327, // **NOT ACTUAL PORT**
-            "user": "lottosharesrpc",
-            "password": "By66dCmyX44uUbA7P3qqXJQeT3Ywd8dZ4dJdfgxCAxbg"
-        }
-	],
-},	{
 	"name": "Syscoin",
 	"symbol": "SYS",
 	"algorithm": "scrypt",

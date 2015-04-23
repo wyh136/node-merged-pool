@@ -34,7 +34,7 @@
     "url": "https://github.com/sigwo/node-merged-pool.git"
   },
   "dependencies": {
-    "multi-hashing": "https://github.com/sigwo/node-multi-hashing.git",
+    "multi-hashing": "https://github.com/UNOMP/node-multi-hashing.git",
     "bignum": "*",
     "base58-native": "*",
     "async": "*",

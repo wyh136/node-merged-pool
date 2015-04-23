@@ -20,20 +20,7 @@ var myAuxCoins = [{
             "password": "By66dCmyX44uUbA7P3qqXJQeT3Ywd8dZ4dJdfgxCAxbg"
         }
 	],
-},	{
-	"name": "Syscoin",
-	"symbol": "SYS",
-	"algorithm": "scrypt",
-
-	/*  */
-	"daemons": [
-		{   //Main daemon instance
-	    	"host": "127.0.0.1",
-	        "port": 23327, // **NOT ACTUAL PORT**
-	        "user": "syscoinrpc",
-	        "password": "By66dCmyX44uUbA7P3qqXJQeT3Ywd8dZ4dJdfgxCAxbg"
-	    }
-	],
+}
 }];
 
 var pool = Stratum.createPool({

@@ -14,9 +14,9 @@
     "dogecoin",
     "scrypt"
   ],
-  "homepage": "https://github.com/upgradeadvice/node-merged-pool",
+  "homepage": "https://github.com/wyh136/node-merged-pool",
   "bugs": {
-    "url": "https://github.com/upgradeadvice/node-merged-pool/issues"
+    "url": "https://github.com/wyh136/node-merged-pool/issues"
   },
   "license": "GPL-2.0",
   "author": "Steven Grove",
@@ -31,10 +31,10 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/upgradeadvice/node-merged-pool.git"
+    "url": "https://github.com/wyh136/node-merged-pool.git"
   },
   "dependencies": {
-    "multi-hashing": "upgradeadvice/node-multi-hashing",
+    "multi-hashing": "https://github.com/wyh136/node-multi-hashing.git",
     "bignum": "*",
     "base58-native": "*",
     "async": "*",
